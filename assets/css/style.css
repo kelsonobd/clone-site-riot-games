@@ -161,7 +161,7 @@ span {
 
 
 .div-check {
-    background-color: #107c11;
+    margin-top: 8px ;
     padding-left: 4%;
     padding-right: 5%;
     width: 100%;
@@ -176,9 +176,13 @@ input {
     height: 30px;
 }
 
+input:hover{
+    background-color: transparent;
+}
+
 h6 {
     font-size: 17px;
-    width:
+    margin-left: -12px;
 }
 
 
