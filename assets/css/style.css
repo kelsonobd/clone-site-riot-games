@@ -32,12 +32,13 @@ section {
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 558px;
-    width: 415px;
+    width: 580px;
     background-color: #FFF;
-    padding: ;
+    padding-top: 5%;
+   
 }
 
 .container h1 {
@@ -46,8 +47,8 @@ section {
 }
 
 .content-dados {
-    height: 60px;
-    min-width: 280px;
+    height: 50px;
+    min-width: 480px;
     position: relative;
     background-color: rgba(186, 186, 186, 0.1);
     border-style: solid;
@@ -57,6 +58,7 @@ section {
     display: inline-flex;
     -webkit-box-align: center;
     margin-bottom: 20px;
+    
 }
 
 .box-dados {
@@ -64,13 +66,14 @@ section {
     border: none;
     padding: 15px;
     box-sizing: border-box;
-    height: 90px;
+    height: 70px;
     display: block;
     outline: none;
     width: 100%;
     line-height: normal;
     font-size: 18px;
     font-weight: bold;
+    font-size: 15px;
 
 }
 
@@ -89,7 +92,7 @@ section {
 }
 
 span {
-    color: rgb(102, 102, 102);
+    color: rgb(145, 145, 145);
     font-family: "FF Mark W05", sans-serif;
     position: absolute;
     text-transform: uppercase;
@@ -100,13 +103,14 @@ span {
     left: 8px;
     top: 7.33px;
     opacity: 1;
+    font-size: 10px;
 }
 
 .media-sociais {
     display: inline-flex;
     justify-content: center;
+    gap: 2%;
     align-items: center;
-    gap: 10px;
     margin-top: 50px;
     width: 100%;
     height: 40px;
@@ -116,10 +120,11 @@ span {
 .media-sociais .face,
 .gmail,
 .apple,
-.xbox {
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 78px;
+.xbox,
+.plays {
+    padding-left:-50%;
+    padding-right: 0%;
+    width: 90px;
     height: 31px;
     border-radius: 8px;
 }
@@ -158,23 +163,30 @@ span {
     background-repeat: no-repeat;
 }
 
+.media-sociais .plays {
+    background-color: #107c11;
+    background-image: url(/assets/images/xbox.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
 
 
 .div-check {
-    margin-top: 8px ;
-    padding-left: 4%;
-    padding-right: 5%;
-    width: 100%;
+    width: 85%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 5px;
+    
 
 }
 
 
 h6 {
-    font-size: 17px;
+    font-size: 12px;
     margin-left: 7px;
+    color: rgb(145, 145, 145);
 }
 
 
