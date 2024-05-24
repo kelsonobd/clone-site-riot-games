@@ -178,17 +178,36 @@ span {
     justify-content: flex-start;
     align-items: center;
     margin-top: 5px;
-    
-
 }
 
+.check {
+    height: 18px;
+    width: 18px;
+    background-color: #00c903;
+}
 
 h6 {
     font-size: 12px;
     margin-left: 7px;
-    color: rgb(145, 145, 145);
+    color: rgb(77, 77, 77);
 }
 
+.div-remember {
+    height: 30%;
+    background-color:;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+button{
+    background-color: transparent;
+    height: 70px;
+    width: 80px;
+    border-radius: 35%;
+    border:2px solid rgb(218, 217, 217);
+}
 
 
 
