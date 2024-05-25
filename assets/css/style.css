@@ -215,12 +215,12 @@ button{
     
 }
 
-h5{
+.remember{
     font-size: 10px;
     text-transform: uppercase;
     color:#6b6b6b;
     line-height: 20px;
-    
+    text-decoration: none;  
 }
 
 /*
