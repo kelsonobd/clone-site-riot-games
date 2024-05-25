@@ -223,6 +223,28 @@ button{
     text-decoration: none;  
 }
 
+
+footer{
+    margin-top: 40px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 10%;
+    gap: 10px;
+}
+
+.termos{
+    display: flex;
+    gap: 20px;
+    font-size: 10px;  
+}
+
+.dados-footer{
+    
+}
+
+
 /*
 .check-login {
     display: inline-block;
